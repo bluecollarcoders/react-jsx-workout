@@ -4,7 +4,7 @@ const App = () => {
             <Tweet 
             username="Coder2021" 
             user="Caleb" 
-            date="Feb 2, 2021" 
+            date={new Date().toDateString()} 
             message="Its a snowy Day"/>
         </div>
     )
